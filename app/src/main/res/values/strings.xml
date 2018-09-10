@@ -1,0 +1,8 @@
+<resources>
+     <string name="app_name">Contador</string>
+     <string name="ti_textview">Contagem : </string>
+     <string name="default_tentativas_textview">0</string>
+     <string name="mais_button">+1</string>
+     <string name="menos_button">-1</string>
+<string name="resetar_button">Zerar Contagem</string>
+</resources>

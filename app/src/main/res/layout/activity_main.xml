@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="@string/ti_textview"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/numero_tentativas_textview"
+                    android:layout_width="171dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/default_tentativas_textview"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="80sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="423dp"
+            android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/mais_button"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/mais_button"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/menos_button"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/menos_button"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/resetar_button"
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/resetar_button"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
